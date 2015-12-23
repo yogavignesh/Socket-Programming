@@ -16,16 +16,20 @@
 4. The timeout for 10 milliseconds is handled and also the client requests are run using threads.
 5. Non-blocking socket error has been handled using exception.
 
-**There are two server files:**
+
+          **There are two server files:**
 * To access from browser:
 *server_client_access_from_browser.py*
 * To access from commandline:
 *server_client_from_cmdline.py*
- **One client file:**
+
+
+           **One client file:**
 *client.py* 
 
       
       
+
 
       Steps to run the program in command line:
 * Run the server_client_from_cmdline.py file in command prompt using
