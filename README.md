@@ -5,8 +5,8 @@
 ### Yoga Vignesh Surathi
 
       Requirements:
-Version python 2.7.9
-Windows cmd line
+* Version python 2.7.9
+* Windows cmd line
 
       Implementation:
 1. Python 2.7.9 version was used to implement this project.
@@ -15,14 +15,14 @@ Windows cmd line
 4. The timeout for 10 milliseconds is handled and also the client requests are run using threads.
 5. Non-blocking socket error has been handled using exception.
 
-1. There are two server files:
+There are two server files:
 * To access from browser:
 **server_client_access_from_browser.py**
 * To access from commandline:
 **server_client_from_cmdline.py**
-2. One client file:
+ One client file:
 **client.py**
-3. Steps to run the program in command line:
+Steps to run the program in command line:
 * Run the server_client_from_cmdline.py file in command prompt using
 python server_client_from_cmdline.py 8080
 * Run the client.py file in a seperate command prompt
@@ -31,14 +31,14 @@ python client.py -n 127.0.0.1 [-p 8080] [-f "index.html"] [-m "GET"]
 * After the request is run through client.py ,
 the output from the server is received.
 * formats supported are html, jpg,gif,txt.
-4. Steps to run the program in browser:
+Steps to run the program in browser:
 *  Run the server_client_access_from_browser.py file in command prompt using
 python server_client_access_from_browser.py 8080
 * Access the localhost server using localhost:8080 through browser
 or localhost:8080/index.html
      * Try looking for localhost:8080/balls.jpg
 
-5. Known Issues:
+Known Issues:
   The server for browser code doesn't work for cmd line and vice versa due to encoding.
 
       References:
