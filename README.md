@@ -17,19 +17,15 @@
 5. Non-blocking socket error has been handled using exception.
 
 
-          **There are two server files:**
+          There are two server files:
 * To access from browser:
 *server_client_access_from_browser.py*
 * To access from commandline:
 *server_client_from_cmdline.py*
 
 
-           **One client file:**
+           One client file:
 *client.py* 
-
-      
-      
-
 
       Steps to run the program in command line:
 * Run the server_client_from_cmdline.py file in command prompt using
@@ -42,14 +38,12 @@ the output from the server is received.
 * formats supported are html, jpg,gif,txt. 
 
 
-
-
       Steps to run the program in browser:
 *  Run the server_client_access_from_browser.py file in command prompt using
 python server_client_access_from_browser.py 8080
 * Access the localhost server using localhost:8080 through browser
 or localhost:8080/index.html
-* Try looking for localhost:8080/balls.jpg  
+* Try looking for localhost:8080/balls.jpg 
 
 
       Known Issues:
